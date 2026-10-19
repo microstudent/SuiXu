@@ -1,0 +1,36 @@
+name: Bug report / 问题反馈
+description: Report a reproducible issue / 报告可复现的问题
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / 问题描述
+      description: Expected and actual behavior / 预期与实际行为
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: For date issues, include the date, week-start setting, and an official source / 日期问题请附日期、周起始设置与官方来源
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version or commit / 应用版本或提交
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: macOS version and architecture / macOS 版本与芯片
+      placeholder: macOS 26.x, Apple Silicon
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or logs / 截图或日志
+      description: Remove private information and credentials / 请移除私人信息与凭据

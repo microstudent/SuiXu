@@ -1,0 +1,23 @@
+.build/
+dist/
+.DS_Store
+.swiftpm/
+logs/
+*.xcuserstate
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.key
+*.pem
+
+# Tooling output
+__pycache__/
+*.pyc
+xcuserdata/
+*.xcresult
